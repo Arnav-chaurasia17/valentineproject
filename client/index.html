@@ -1,15 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Future Player 2 | Developer Dating Profile</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- Preconnect for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+</head>
+<body>
+
+    <!-- Floating Hearts Animation Background -->
+    <div class="hearts-container">
+        <div class="heart" style="left: 10%; animation-duration: 15s;">❤️</div>
+        <div class="heart" style="left: 20%; animation-duration: 18s; animation-delay: 2s;">💘</div>
+        <div class="heart" style="left: 30%; animation-duration: 12s; animation-delay: 4s;">💜</div>
+        <div class="heart" style="left: 50%; animation-duration: 20s;">💖</div>
+        <div class="heart" style="left: 70%; animation-duration: 16s; animation-delay: 5s;">❤️</div>
+        <div class="heart" style="left: 85%; animation-duration: 13s; animation-delay: 1s;">💘</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">&lt;Dev<span>Lover</span>/&gt;</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#why-me">Why Me?</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Hello World, I’m <span class="gradient-text">[Your Name]</span> 💘</h1>
+            <p class="hero-subtitle">"Debugging code by day, stealing hearts by night."</p>
+            
+            <div class="cta-group">
+                <a href="#skills" class="btn btn-primary">View My Skills</a>
+                <a href="#why-me" class="btn btn-secondary">Why Date Me?</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="profile-card">
+                <div class="profile-img-container">
+                    <div class="profile-img-placeholder">👨‍💻</div>
+                    <!-- Replace with <img src="your-photo.jpg" alt="Profile"> -->
+                </div>
+                <div class="profile-info">
+                    <h3>The Full-Stack Package</h3>
+                    <p class="bio-text">
+                        I'm a passionate developer with a knack for solving complex problems and creating beautiful experiences. 
+                        When I'm not pushing code, I'm probably hiking, gaming, or looking for the best coffee in town. 
+                        I bring the same level of commitment to my relationships as I do to my git commits.
+                    </p>
+                    <div class="hobbies">
+                        <span class="tag">☕ Coffee Connoisseur</span>
+                        <span class="tag">🎮 Gamer</span>
+                        <span class="tag">🏃‍♂️ Hiker</span>
+                        <span class="tag">🎵 Music Lover</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Tech & Heart Stack</h2>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3 class="skill-title">Frontend</h3>
+                    <p class="skill-desc">"I make things look good. Just like us together."</p>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skill-card">
+                    <span class="skill-icon">⚙️</span>
+                    <h3 class="skill-title">Backend</h3>
+                    <p class="skill-desc">"Strong, stable, and handles heavy loads without crashing."</p>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-card">
+                    <span class="skill-icon">🛠️</span>
+                    <h3 class="skill-title">Maintenance</h3>
+                    <p class="skill-desc">"Zero ghosting policy. 99.9% uptime in conversations."</p>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card">
+                    <span class="skill-icon">🤝</span>
+                    <h3 class="skill-title">Soft Skills</h3>
+                    <p class="skill-desc">"Responsive in relationships. Emotionally stable (v1.0)."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Date Me Section -->
+    <section id="why-me">
+        <div class="container">
+            <h2>Why Date Me?</h2>
+            <div class="reasons-container">
+                <div class="reason-card">
+                    <div class="reason-title">Clean UI & Intentions</div>
+                    <p>What you see is what you get. No hidden dependencies or malware.</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-title">Bug Fixer</div>
+                    <p>I fix bugs in code AND bad moods. Expert troubleshooter.</p>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-title">Future-Ready</div>
+                    <p>Always learning, always upgrading. Committed to long-term support (LTS).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Section -->
+    <section>
+        <div class="container">
+            <div class="valentine-container">
+                <h2>Will You Be My Valentine?</h2>
+                <p>Accepting pull requests to my heart.</p>
+                
+                <div class="valentine-buttons">
+                    <button class="btn btn-yes">YES 💖</button>
+                    <div class="btn-no-wrapper">
+                        <button class="btn btn-no">NO 💔</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Recent Deployments</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Perfect Date Planner</h3>
+                        <p class="project-desc">An algorithm to find the best dinner spots based on your mood.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Logic</span>
+                            <span class="tech-tag">Love</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Relationship API</h3>
+                        <p class="project-desc">A secure connection endpoint for communication and affection.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Secure</span>
+                            <span class="tech-tag">Fast</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Memory Cache</h3>
+                        <p class="project-desc">I remember your favorite flowers, food, and important dates.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Database</span>
+                            <span class="tech-tag">Forever</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="quote">"Built with ❤️ and clean code."</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon">GH</a> <!-- GitHub -->
+                <a href="#" class="social-icon">LI</a> <!-- LinkedIn -->
+                <a href="#" class="social-icon">TW</a> <!-- Twitter -->
+                <a href="#" class="social-icon">IG</a> <!-- Instagram -->
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
