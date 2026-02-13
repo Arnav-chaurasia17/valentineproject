@@ -1,0 +1,183 @@
+Create a modern, attractive, and slightly playful personal dating profile website for a developer participating in “The Ultimate Valentine’s Day Hack” by House of Geeks.
+
+The website should feel like a mix of:
+
+Developer portfolio
+
+Romantic profile
+
+Confident main-character energy
+
+It should scream:
+“I’m the full-stack partner you’ve been searching for.”
+
+⚠️ Strict Requirements (Very Important)
+
+Use ONLY HTML and CSS
+
+❌ No JavaScript
+
+❌ No frameworks (No Bootstrap, Tailwind, React, etc.)
+
+❌ No external libraries
+
+✔ Pure CSS animations only
+
+✔ Responsive (mobile-first)
+
+✔ Use Flexbox and/or Grid
+
+✔ Clean semantic HTML
+
+✔ Separate files: index.html and style.css
+
+✔ Organized CSS with comments
+
+✔ Smooth hover transitions
+
+✔ No inline CSS
+
+🎨 Design Style
+
+Romantic but premium aesthetic
+
+Soft gradient background (pink, red, purple tones)
+
+Modern Google Font
+
+Glassmorphism or soft glowing cards
+
+Subtle floating hearts using CSS keyframes
+
+Smooth fade-in animations
+
+Gradient animated buttons
+
+Elegant hover effects
+
+Not cringe. Confident. Smooth.
+
+🧠 Sections to Include
+1️⃣ Hero Section
+
+Big headline:
+“Hello World, I’m [Your Name] 💘”
+
+Subheading:
+“Debugging code by day, stealing hearts by night.”
+
+Two CTA buttons:
+
+“View My Skills”
+
+“Why Date Me?”
+
+Add animated gradient text effect for headline.
+
+2️⃣ About Me Section
+
+Short charming bio that includes:
+
+Passion for tech
+
+Ambition
+
+Sense of humor
+
+Hobbies outside coding
+
+Add a stylish profile card layout.
+
+3️⃣ Skills Section
+
+Display skills in animated cards:
+
+Frontend
+
+Backend
+
+Tools
+
+Soft Skills (Communication, Loyalty, Emotional Stability 😌)
+
+Add playful descriptions like:
+
+“Responsive in relationships too.”
+
+“99.9% uptime in conversations.”
+
+“Zero ghosting policy.”
+
+Use hover scale animation.
+
+4️⃣ Why Date Me? Section
+
+Fun bullet points:
+
+Clean UI, cleaner intentions.
+
+Emotionally available (beta version stable).
+
+Fixes bugs AND bad moods.
+
+Future-ready mindset.
+
+Stylish card layout.
+
+5️⃣ Fun Interactive Section (CSS Only)
+
+Create a “Will You Be My Valentine?” section with:
+
+Two buttons: YES / NO
+
+On hover, make the NO button slightly shift position using CSS
+
+Add cute hover glow effect
+
+(No JavaScript allowed.)
+
+6️⃣ Projects Section
+
+Show 2–3 small projects:
+
+Card layout
+
+Hover glow animation
+
+GitHub-style aesthetic
+
+7️⃣ Footer
+
+Add:
+
+Romantic tech quote:
+“Built with ❤️ and clean code.”
+
+Social icons styled with CSS
+
+Soft glowing divider
+
+✨ Extra CSS Features to Add
+
+Sticky navbar
+
+Smooth scroll
+
+Animated gradient background
+
+Floating hearts animation
+
+Section reveal animation using CSS keyframes
+
+Subtle shadow and depth
+
+🎯 Tone
+
+Confident
+Playful
+Charming
+Ambitious
+Slightly dramatic
+Developer humor
+
+Make it feel like a premium dating app profile — but for a developer.
