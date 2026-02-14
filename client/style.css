@@ -484,6 +484,9 @@ nav {
   box-shadow: 0 0 20px rgba(255, 77, 109, 0.2);
   border-color: var(--primary);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .project-header {
   padding: 15px;
